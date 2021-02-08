@@ -1,0 +1,196 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	
+	text-align: left;
+	background : url (imagens/bg.jpg) no-repeat center top fixed;
+	
+}
+
+#Principal{
+	
+	width: 970px;	
+	margin : 0 auto;
+}
+
+#Cabecalho{	
+	height: 210 px ;
+	height: 374px;	
+}
+
+#Banner-superior{
+	margin: 0 0 2px 0;
+}
+
+#Menu-superior{
+	height : 52px;
+	color : #666;
+	text-align:center;
+	margin-bottom: 2px;
+	
+	
+}
+#Menu-superior ul{
+	height: 35px;
+	padding:14px 0 0 0;
+	font-size:14px;
+	font-weight: bold;
+	border: 1px solid #999;
+}
+
+#Menu-superior ul li{
+    display: inline;
+	margin: 0 10px 0 20px;
+}
+
+#Menu-superior ul li a{
+    text-decoration: none;
+	color: #666;
+	
+}
+
+#Menu-superior ul li a:hover{
+	
+	text-decoration: underline;
+		
+}
+#Corpo{
+	
+	width : 970px;
+	height : 1000px;
+	
+}
+
+#Esquerdo{
+	width : 180px;
+	float: left;
+	margin: 20px 0 5px 0; 
+	text-indent: 10px;
+	background: white ;
+}
+#Esquerdo ul{
+	
+	list-style: none;
+	padding: 0 0 10px 0;
+}
+#Esquerdo ul li a{
+	font:11px verdana;
+	text-decoration:none;
+	color: #555;
+	padding: 4px 0;
+	display: block;
+	border-bottom: dotted 1px #999;
+	
+}
+#Esquerdo ul li a:hover{
+	color:#006699;
+	background-color: #e6F5FB;
+}
+#Centro{
+	width : 565px;
+	height : 200px;
+	float: left;
+	border: 1px solid #CCC;
+	margin-bottom: 15px;
+	
+}
+
+#Direito{
+	width : 195px;
+	float: left;
+	
+}
+#Redes ul{
+	list-style:none;	
+}
+#Redes li{
+	display: inline;
+	
+}
+#Noticias{
+	background: #DAEBEF;
+	border: solid 1px #CCC;
+	width : 200px;
+	float: left;
+	color: #336699;
+	padding: 5px;
+	margin: 10px 0 20px 0;
+}
+#item-noticias{
+	font-family: arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#006699;
+	border-bottom: solid 1px # CCC;
+	line-height: 14px;
+	padding: 8px 0 10px 0;
+	
+}
+#Item-noticias span{
+	font-size: 10px;
+	color: #999;
+}
+
+#Item-noticias a{
+	color: #006699;
+	text-decoration: none;
+}
+#Item-noticias a:hover{
+	
+	text-decoration: underline;
+}
+
+#container-post{
+	width: 565px;
+	height: 200px;
+	background: red;
+	
+	
+}
+
+#container-post-recentes{
+	width: 565px;
+	float: center;
+	height: 360px;
+	background: gray;
+	
+}
+#ultimo-post-lancado{
+	float: left;
+	margin: 5px;
+	height: 323px;
+	width: 300px;
+	padding:10px;
+	border: solid 1px #CCC;
+	background: blue;
+	
+}
+
+#lista-post-recentes{
+	float: left;
+	width: 230px;
+	padding: 8px 1px 0 1px;
+	margin-top: 0px;
+	background: yellow;
+	
+}
+
+
+#caixa-post-recente{
+	width: 220px;
+	float: left;
+	height: 52px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	margin-bottom: 4px;
+	border:  solid 1px #CCC;
+	font-size: 11px;
+	background: green;
+	
+}
+
+#Rodape{
+	
+}
